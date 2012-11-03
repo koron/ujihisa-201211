@@ -1,0 +1,438 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+<head>
+  <title>vim-jpの活動報告</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1274, user-scalable=no">
+  <link rel="stylesheet" href="themes/ribbon/styles/style.css">
+  <link rel="stylesheet" href="themes/ribbon/styles/print.css" media="print">
+
+  <style>
+    .slide section:before {
+      position: absolute;
+      top: 560px;
+      left: 0px;
+      width: 100%;
+      background: url(images/vim-colorbar.png) repeat-x;
+    }
+
+    .cover h2 {
+      color: #0f0;
+      text-shadow: 4px 4px 8px #333;
+      text-align:center;
+      font-size: 72px;
+    }
+
+    #Cover section {
+      background: #fff;
+    }
+    #Cover h2 {
+      font-size:96px;
+    }
+    #Cover h3 {
+      color: #0f0;
+      text-shadow: 4px 4px 8px #333;
+      text-align:center;
+      font-size: 72px;
+      margin-top: 36px;
+      font-size:64px;
+    }
+
+    #HowAboutVimJP section,
+    #HowAboutVimJP1 section,
+    #HowAboutVimJP2 section {
+      background-color: #fff;
+    }
+
+    #Issue01 section,
+    #Issue02 section, {
+      background-color: #fff;
+    }
+
+    #FakeGrowing {
+      position: absolute;
+      right: 50pt;
+      bottom: 80pt;
+      width: 320px;
+    }
+    #StandPlayToTeamWork h2 {
+      position: absolute;
+      bottom: 50px;
+      right: 100px;
+    }
+
+    #DoItAsYouCan h2 {
+      position: absolute;
+      bottom: 50px;
+      left: 100px;
+    }
+
+  </style>
+
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>vim-jpの活動報告</h1>
+    <h2>Vimの過去と現在と未来</h2>
+    <p>MURAOKA Taro (a.k.a. KoRoN or @kaoriya)</p>
+  </header>
+
+  <div class="slide cover" id="Cover"><div>
+    <section>
+      <header>
+        <h2>vim-jpの活動報告</h2>
+        <h3>Vimの過去と現在と未来</h3>
+      </header>
+      <img src="images/vim-background.png" alt="">
+    </section>
+  </div></div>
+
+  <div class="slide" id="SelfIntroduce"><div>
+    <section>
+      <header>
+      <h2>自己紹介</h2>
+      </header>
+      <img style='height: 350px; float: right;' src='images/popo.jpg' alt="">
+      <ul>
+        <li>本名: 村岡太郎</li>
+        <li><a href='http://www.kaoriya.net/' target='_blank'>http://www.kaoriya.net/</a></li>
+        <li>twitter: @kaoriya</li>
+        <li>ハンドル名: KoRoN</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide" id="WhatIsVimJP"><div>
+    <section>
+      <header>
+        <h2>vim-jp ってなんだっけ?</h2>
+      </header>
+      <ul>
+        <li><a target="_blank" href='http://vim-jp.org/'>http://vim-jp.org/</a></li>
+        <li>2011/09/15 設立 &raquo; ほぼ1年</li>
+        <li>目的 &raquo; Vim と日本・日本語に関わるあらゆるリソースを集中させる</li>
+        <li>やってること</li>
+        <ul>
+          <li>バグ修正・新機能の提案 &raquo; issues</li>
+          <li>関連リソースの集中管理 &raquo; vimdoc-ja, autofmt, cpp.vim</li>
+          <li>各種啓蒙活動 &raquo; vimrc読書会, 月刊Vimマガジン</li>
+        </ul>
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide cover w" id="HowAboutVimJP"><div>
+    <section>
+      <header>
+        <h2>Vimmer こわい</h2>
+      </header>
+      <img src="images/vim-scared.png" alt="" />
+    </section>
+  </div></div>
+
+  <div class="slide cover h" id="HowAboutVimJP1"><div>
+    <section>
+      <header>
+        <h2>Vimmer こわい<br />(vim-jp以前)</h2>
+      </header>
+      <img src="images/vim-scared3.png" alt="" />
+    </section>
+  </div></div>
+
+  <div class="slide cover h" id="HowAboutVimJP2"><div>
+    <section>
+      <header>
+        <h2>Vimmer こわい<br />(vim-jp以後)</h2>
+      </header>
+      <img src="images/vim-scared4.png" alt="" />
+    </section>
+  </div></div>
+
+  <div class="slide" id="ItemsOfVimJP1"><div>
+    <section>
+      <header>
+        <h2>やってること</h2>
+      </header>
+      <ul>
+        <li style="color:#f00;">バグ修正・新機能の提案 &raquo; issues</li>
+        <li>関連リソースの集中管理 &raquo; vimdoc-ja, autofmt, cpp.vim</li>
+        <li>各種啓蒙活動 &raquo; vimrc読書会, 月刊Vimマガジン</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide cover h" id="Issue01"><div>
+    <section>
+      <header>
+        <h2>Issueの例(その1)</h2>
+      </header>
+      <img src="images/issue01.png" alt="" />
+    </section>
+  </div></div>
+
+  <div class="slide cover h" id="Issue02"><div>
+    <section>
+      <header>
+        <h2>Issueの例(その1)</h2>
+      </header>
+      <img src="images/issue02.png" alt="" />
+    </section>
+  </div></div>
+
+  <div class="slide" id="ResultOfIssues2011"><div>
+    <section>
+      <header>
+        <h2>vim-jp以前の1年間</h2>
+      </header>
+      <ul>
+        <li>パッチ数: 310個 (006-315)
+        <li>日本人によるもの: 19個
+        <li>日本人の数: 6人
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide" id="ResultOfIssues2012"><div>
+    <section>
+      <header>
+        <h2>vim-jp以後の1年間</h2>
+      </header>
+      <ul>
+        <li>パッチ数: 346個 (316-661)
+        <li>日本人によるもの: 59個
+        <li>日本人の数: 9人
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide" id="ResultOfIssues"><div>
+    <section>
+      <header>
+        <h2>issues の成果</h2>
+      </header>
+      <img id="FakeGrowing" src="images/fake_growing.jpg" alt="" />
+      <ul>
+        <li>vim-jp以前の1年間: 310個 (006-315) 中 19個 (6人)
+        <li>vim-jp以後の1年間: 346個 (316-661) 中 59個 (9人)
+        <li>その後: 51個 (662-712) 中 10個 (2人)
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide cover w" id="MVP"><div>
+    <section>
+      <header>
+        <h2>MVPな人</h2>
+      </header>
+      <img src="images/patch_mvp_2012.png" alt="" />
+    </section>
+  </div></div>
+
+  <div class="slide" id="ItemsOfVimJP2"><div>
+    <section>
+      <header>
+        <h2>やってること</h2>
+      </header>
+      <ul>
+        <li>バグ修正・新機能の提案 &raquo; issues</li>
+        <li style="color:#f00;">関連リソースの集中管理 &raquo; vimdoc-ja, autofmt, cpp.vim</li>
+        <li>各種啓蒙活動 &raquo; vimrc読書会, 月刊Vimマガジン</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide" id="JapaneseResources"><div>
+    <section>
+      <header>
+        <h2>日本語リソースの成果</h2>
+      </header>
+      <ul>
+        <li>vimdoc-ja &raquo;<br />
+        ほぼ最新の翻訳ドキュメント</li>
+        <li>autofmt &raquo;<br />
+        整形スクリプトの寄贈</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide" id="CppVim"><div>
+    <section>
+      <header>
+        <h2>cpp.vim &raquo; グローバルリソースの成果</h2>
+      </header>
+      <ol>
+        <li>C++のsyntaxが古いまんまだから治したいよ</li>
+        <li><em>Bram:</em>&nbsp;数年間メンテナと連絡つかないんだけど…</li>
+        <li><em>vim-jp:</em>&nbsp;(チャーンス!)あ、僕達がメンテナやりまーす</li>
+        <li><em>Bram:</em>&nbsp;んじゃ、お願いね</li>
+      </ol>
+      <p>非常に重要な一歩(commit権) &raquo; <a href='https://github.com/vim-jp/cpp-vim' target='_blank'>vim-jp/cpp-vim</a></p>
+    </section>
+  </div></div>
+
+  <div class="slide" id="ItemsOfVimJP3"><div>
+    <section>
+      <header>
+        <h2>やってること</h2>
+      </header>
+      <ul>
+        <li>バグ修正・新機能の提案 &raquo; issues</li>
+        <li>関連リソースの集中管理 &raquo; vimdoc-ja, autofmt, cpp.vim</li>
+        <li style="color:#f00;">各種啓蒙活動 &raquo; vimrc読書会, 月刊Vimマガジン</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide" id="ReadingVimrc"><div>
+    <section>
+      <header>
+        <h2>vimrc読書会</h2>
+      </header>
+      <ul>
+        <li><a href='http://vim-jp.org/reading-vimrc/' target='_blank'>vim-jp.org/reading-vimrc</a></li>
+        <li>他人のvimrcを読む</li>
+        <li>便利な設定やプラグインの発掘・共有</li>
+        <li>Vim Scriptへの理解</li>
+      </ul>
+      <p>とても勉強になります!</p>
+    </section>
+  </div></div>
+
+  <div class="slide" id="VimMagazine"><div>
+    <section>
+      <header>
+        <h2>月刊Vimマガジン</h2>
+      </header>
+      <ul>
+        <li>毎月のVimの出来事</li>
+        <li>毎月末発行 &raquo; 2012年3月創刊</li>
+        <li>最新号 &raquo; <a href='http://vim-jp.org/vimmagazine/2012/10/31/vimmagazine.html' target='_blank'>Vim Magazine 10 月号</a></li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide" id="OtherResults"><div>
+    <section>
+      <header>
+        <h2>その他の活動</h2>
+      </header>
+      <ul>
+        <li>twitterのvim検索を監視して、つぶやかれた不具合をissueに登録</li>
+        <li>2chのvimスレを監視して、書き込まれた不具合を(ry</li>
+        <li>いろんなブログを監視して(ry</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide shout" id="VimJPScared"><div>
+    <section>
+      <header>
+        <h2>vim-jp こわい</h2>
+      </header>
+    </section>
+  </div></div>
+
+  <div class="slide cover w" id="NotScared"><div>
+    <section>
+      <header>
+        <h2>大丈夫、こわくない</h2>
+      </header>
+      <img src="images/dog_scared.jpg" alt="" />
+    </section>
+  </div></div>
+
+  <div class="slide shout" id="ThisIsVimJP"><div>
+    <section>
+      <header>
+        <h2>vim-jpの本質はたったの3つ</h2>
+      </header>
+    </section>
+  </div></div>
+
+
+  <div class="slide cover h" id="StandPlayToTeamWork"><div>
+    <section>
+      <header>
+        <h2>スタンドプレーから<br />生じるチームワーク</h2>
+      </header>
+      <img src="images/aramaki.gif" alt="" />
+    </section>
+  </div></div>
+
+  <div class="slide cover w" id="DoItAsYouCan"><div>
+    <section>
+      <header>
+        <h2>やれることから<br />やってみる</h2>
+      </header>
+      <img src="images/vimnchu_proto.jpg" alt="" />
+    </section>
+  </div></div>
+
+  <div class="slide cover w" id="CanStopWhenever"><div>
+    <section>
+      <header>
+        <h2>途中で投げだしたって<br />良いじゃない</h2>
+      </header>
+      <img src="images/bored.png" alt="" />
+    </section>
+  </div></div>
+
+  <div class="slide" id="TruthOfVimJP"><div>
+    <section>
+      <header>
+        <h2>vim-jpの本質</h2>
+      </header>
+      <ul>
+        <li>スタンドプレーから生じるチームワーク</li>
+        <li>やれることからやってみる</li>
+        <li>途中で投げだしたって良いじゃない</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide" id="FutureOfVim"><div>
+    <section>
+      <header>
+        <h2>Vim の未来</h2>
+      </header>
+      <ul>
+        <li>単一のメンテナの限界</li>
+        <li>グループによる分割統治</li>
+      </ul>
+      <p style="font-size: 150%;"><strong>vim-jpがやっていることが先駆けとなる</strong></p>
+    </section>
+  </div></div>
+
+  <div class="slide" id="Others"><div>
+    <section>
+      <header>
+        <h2>その他</h2>
+      </header>
+    </section>
+  </div></div>
+
+  <div class="slide shout" id="TheEnd"><div>
+    <section>
+      <header>
+        <h2>おしまい</h2>
+      </header>
+    </section>
+  </div></div>
+
+  <!--
+
+  <div class="slide" id=""><div>
+    <section>
+      <header>
+        <h2></h2>
+      </header>
+    </section>
+  </div></div>
+
+  -->
+
+  <div class="progress"><div></div></div>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
